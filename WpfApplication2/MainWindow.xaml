@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfKeyBoard="clr-namespace:wpfKeyBoard;assembly=wpfKeyBoard" x:Class="WpfApplication2.MainWindow"
+        Title="MainWindow"  Width="581.474" Height="463">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="155*"/>
+            <RowDefinition Height="114*"/>
+            <RowDefinition Height="163*"/>
+        </Grid.RowDefinitions>
+        <wpfKeyBoard:VirtualKeyboardControl x:Name="KeyboardControl" VirtualKeyPressed="KeyboardControl_OnVirtualKeyPressed" />
+        <wpfKeyBoard:VkbTextBox HorizontalAlignment="Left" Margin="25,32,0,40" Grid.Row="1"  Width="482" VerticalContentAlignment="Center" EnterClosesKeyboard="True"   />
+
+
+    </Grid>
+</Window>

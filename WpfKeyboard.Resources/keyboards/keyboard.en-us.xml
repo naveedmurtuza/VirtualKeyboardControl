@@ -1,0 +1,362 @@
+<keyboard default="true" rows="4" columns="24" langcode="en" langName="English" langNative="English"
+          description="English QWERTY Layout">
+  <switcheroos>
+    <normal default="true" fontFamily="Segoe UI"></normal>
+    <shift volatile="true" fontFamily="Segoe UI"></shift>
+    <smiley></smiley>
+    <numSym pages="2" />
+    <ctrl volatile="true" />
+  </switcheroos>
+  <row>
+    <key>
+      <normal>q</normal>
+      <shift>Q</shift>
+      <numSym keytype="virtual" keycode="Tab">Tab</numSym>
+      <numSym1 keytype="virtual" keycode="Tab">Tab</numSym1>
+      <smiley>:)</smiley>
+      <ctrl>q</ctrl>
+    </key>
+    <key>
+      <normal>w</normal>
+      <shift>W</shift>
+      <numSym>!</numSym>
+      <numSym1>{</numSym1>
+      <smiley>:D</smiley>
+      <ctrl>w</ctrl>
+    </key>
+    <key>
+      <normal>e</normal>
+      <shift>E</shift>
+      <numSym>@</numSym>
+      <numSym1>}</numSym1>
+      <smiley>:(</smiley>
+      <ctrl>e</ctrl>
+    </key>
+    <key>
+      <normal>r</normal>
+      <shift>R</shift>
+      <numSym>#</numSym>
+      <numSym1>[</numSym1>
+      <smiley>:o</smiley>
+      <ctrl>r</ctrl>
+    </key>
+    <key>
+      <normal>t</normal>
+      <shift>T</shift>
+      <numSym>$</numSym>
+      <numSym1>]</numSym1>
+      <smiley>8O</smiley>
+      <ctrl>new tab</ctrl>
+    </key>
+    <key>
+      <normal>y</normal>
+      <shift>Y</shift>
+      <numSym>%</numSym>
+      <numSym1>|</numSym1>
+      <smiley>:?</smiley>
+      <ctrl>y</ctrl>
+    </key>
+    <key>
+      <normal>u</normal>
+      <shift>U</shift>
+      <numSym>&amp;</numSym>
+      <numSym1>&#169;</numSym1>
+      <smiley>8)</smiley>
+      <ctrl>underline</ctrl>
+    </key>
+    <key>
+      <normal>i</normal>
+      <shift>I</shift>
+      <numSym keytype="null"></numSym>
+      <smiley>:x</smiley>
+      <ctrl>italics</ctrl>
+    </key>
+    <key>
+      <normal>o</normal>
+      <shift>O</shift>
+      <numSym>1</numSym>
+      <smiley>:P</smiley>
+      <ctrl>o</ctrl>
+    </key>
+    <key>
+      <normal>p</normal>
+      <shift>P</shift>
+      <numSym>2</numSym>
+      <smiley>:|</smiley>
+      <ctrl>p</ctrl>
+    </key>
+    <key>
+      <normal colspan="2" keytype="virtual" keycode="Back" usesRenderer="true">&#xf177;</normal>
+      <shift colspan="2" keytype="virtual" keycode="Back" usesRenderer="true">&#xf177;</shift>
+      <numSym>3</numSym>
+      <smiley>;)</smiley>
+      <ctrl colspan="2" keytype="virtual" keycode="Back" usesRenderer="true">&#xf177;</ctrl>
+    </key>
+    <key>
+      <numSym keytype="null"></numSym>
+    </key>
+    <key>
+      <numSym keytype="virtual" keycode="Back" usesRenderer="true">&#xf177;</numSym>
+      <smiley keytype="virtual" keycode="Back" usesRenderer="true">&#xf177;</smiley>
+    </key>
+  </row>
+  <row>
+    <key>
+      <normal>a</normal>
+      <shift>A</shift>
+      <numSym keytype="page" usesRenderer="true" pageAction="next">&#xf0a9;</numSym>
+      <numSym1 keytype="page" usesRenderer="true" pageAction="next">&#xf0a9;</numSym1>
+      <smiley>;)</smiley>
+      <ctrl>select all</ctrl>
+    </key>
+    <key>
+      <normal>s</normal>
+      <shift>S</shift>
+      <numSym>(</numSym>
+      <numSym1>~</numSym1>
+      <smiley>8|</smiley>
+      <ctrl>save</ctrl>
+    </key>
+    <key>
+      <normal>d</normal>
+      <shift>D</shift>
+      <numSym>)</numSym>
+      <numSym1>`</numSym1>
+      <smiley>&lt;:(</smiley>
+      <ctrl>d</ctrl>
+    </key>
+    <key>
+      <normal>f</normal>
+      <shift>F</shift>
+      <numSym>-</numSym>
+      <numSym1>&#174;</numSym1>
+      <smiley>:/</smiley>
+      <ctrl>f</ctrl>
+    </key>
+    <key>
+      <normal>g</normal>
+      <shift>G</shift>
+      <numSym>_</numSym>
+      <numSym1>_</numSym1>
+      <smiley>:'(</smiley>
+      <ctrl>g</ctrl>
+    </key>
+    <key>
+      <normal>h</normal>
+      <shift>H</shift>
+      <numSym>=</numSym>
+      <numSym1>&#162;</numSym1>
+      <smiley>3:)</smiley>
+      <ctrl>h</ctrl>
+    </key>
+    <key>
+      <normal>j</normal>
+      <shift>J</shift>
+      <numSym>+</numSym>
+      <numSym1>&#163;</numSym1>
+      <smiley>O:)</smiley>
+      <ctrl>j</ctrl>
+    </key>
+    <key>
+      <normal>k</normal>
+      <shift>K</shift>
+      <numSym keytype="null"></numSym>
+      <numSym1 keytype="null"></numSym1>
+      <smiley>:*</smiley>
+      <ctrl>k</ctrl>
+    </key>
+    <key>
+      <normal>l</normal>
+      <shift>L</shift>
+      <numSym>4</numSym>
+      <smiley>&lt;3</smiley>
+      <ctrl>l</ctrl>
+    </key>
+    <key>
+      <normal>'</normal>
+      <shift>"</shift>
+      <numSym>5</numSym>
+      <smiley>^_^</smiley>
+      <ctrl>'</ctrl>
+    </key>
+    <key>
+      <normal colspan="2" keytype="virtual" keycode="Enter" usesRenderer="true" rotate="90">&#xf149;</normal>
+      <numSym>6</numSym>
+      <shift colspan="2" keytype="virtual" keycode="Enter" usesRenderer="true" rotate="90">&#xf149;</shift>
+      <smiley colspan="2" keytype="virtual" keycode="Enter" usesRenderer="true" rotate="90">&#xf149;</smiley>
+      <ctrl colspan="2" keytype="virtual" keycode="Enter" usesRenderer="true" rotate="90">&#xf149;</ctrl>
+    </key>
+    <key>
+      <numSym keytype="null"></numSym>
+    </key>
+    <key>
+      <numSym rowspan="2" keytype="virtual" keycode="Enter" usesRenderer="true" rotate="90">&#xf149;</numSym>
+    </key>
+  </row>
+  <row>
+    <key>
+      <normal keytype="switcheroo" keycode="LeftShift" switcherooCode="shift" usesRenderer="true">&#xf062;</normal>
+      <shift keytype="switcheroo" keycode="LeftShift" switcherooCode="shift" usesRenderer="true">&#xf062;</shift>
+      <numSym keytype="page" pageAction="previous" usesRenderer="true">&#xf0a8;</numSym>
+      <numSym1 keytype="page" pageAction="previous" usesRenderer="true">&#xf0a8;</numSym1>
+      <smiley>-_-</smiley>
+      <ctrl keytype="switcheroo" keycode="LeftShift" switcherooCode="shift" usesRenderer="true">&#xf062;</ctrl>
+    </key>
+    <key>
+      <normal>z</normal>
+      <shift>Z</shift>
+      <numSym>\</numSym>
+      <numSym1>&#165;</numSym1>
+      <smiley>o.O</smiley>
+      <ctrl>undo</ctrl>
+    </key>
+    <key>
+      <normal>x</normal>
+      <shift>X</shift>
+      <numSym>;</numSym>
+      <numSym1>&#8364;</numSym1>
+      <smiley>&gt;:O</smiley>
+      <ctrl>cut</ctrl>
+    </key>
+    <key>
+      <normal>c</normal>
+      <shift>C</shift>
+      <numSym>:</numSym>
+      <numSym1>&#9824;</numSym1>
+      <smiley>:v</smiley>
+      <ctrl>copy</ctrl>
+    </key>
+    <key>
+      <normal>v</normal>
+      <shift>V</shift>
+      <numSym>"</numSym>
+      <numSym1>&#9827;</numSym1>
+      <smiley>:3</smiley>
+      <ctrl>paste</ctrl>
+    </key>
+    <key>
+      <normal>b</normal>
+      <shift>B</shift>
+      <numSym>*</numSym>
+      <numSym1>&#9829;</numSym1>
+      <smiley>:|]</smiley>
+      <ctrl>b</ctrl>
+    </key>
+    <key>
+      <normal>n</normal>
+      <shift>N</shift>
+      <numSym>/</numSym>
+      <numSym1>&#9830;</numSym1>
+      <smiley>(^^^)</smiley>
+      <ctrl>new</ctrl>
+    </key>
+    <key>
+      <normal>m</normal>
+      <shift>M</shift>
+      <smiley>&lt;('')</smiley>
+      <numSym keytype="null"></numSym>
+      <ctrl>m</ctrl>
+    </key>
+    <key>
+      <normal>,</normal>
+      <shift>&lt;</shift>
+      <numSym>7</numSym>
+      <smiley>(y)</smiley>
+      <ctrl>,</ctrl>
+    </key>
+    <key>
+      <normal>.</normal>
+      <shift>&gt;</shift>
+      <numSym>8</numSym>
+      <smiley>;)</smiley>
+      <ctrl>.</ctrl>
+    </key>
+    <key>
+      <normal>/</normal>
+      <shift>?</shift>
+      <smiley>;)</smiley>
+      <numSym>9</numSym>
+      <ctrl>/</ctrl>
+    </key>
+    <key>
+      <numSym keytype="null"></numSym>
+    </key>
+    <key>
+      <normal keytype="switcheroo" keycode="RightShift" switcherooCode="shift" usesRenderer="true">&#xf062;</normal>
+      <shift keytype="switcheroo" keycode="RightShift" switcherooCode="shift" usesRenderer="true">&#xf062;</shift>
+      <smiley>;)</smiley>
+      <ctrl hasTwin="true" keytype="switcheroo" keycode="RightShift" switcherooCode="shift" usesRenderer="true">&#xf062;</ctrl>
+    </key>
+  </row>
+  <row>
+    <key>
+      <normal keytype="switcheroo" keycode="LeftCtrl" switcherooCode="ctrl">Ctrl</normal>
+      <shift keytype="switcheroo" keycode="LeftCtrl" switcherooCode="ctrl">Ctrl</shift>
+      <numSym keytype="switcheroo" keycode="LeftCtrl" enabled="false">Ctrl</numSym>
+      <smiley keytype="switcheroo" keycode="LeftCtrl" enabled="false">Ctrl</smiley>
+      <ctrl keytype="switcheroo" keycode="LeftCtrl" switcherooCode="ctrl">Ctrl</ctrl>
+    </key>
+    <key>
+      <normal keytype="switcheroo" switcherooCode="numSym">&amp;123</normal>
+      <shift keytype="switcheroo" switcherooCode="numSym">&amp;123</shift>
+      <numSym keytype="switcheroo" switcherooCode="numSym">&amp;123</numSym>
+      <smiley keytype="switcheroo" switcherooCode="numSym">&amp;123</smiley>
+      <ctrl keytype="switcheroo" switcherooCode="numSym">&amp;123</ctrl>
+    </key>
+    <key>
+      <normal keytype="switcheroo" switcherooCode="smiley" usesRenderer="true">&#xf118;</normal>
+      <shift keytype="switcheroo" switcherooCode="smiley" usesRenderer="true">&#xf118;</shift>
+      <numSym keytype="switcheroo" switcherooCode="smiley" usesRenderer="true">&#xf118;</numSym>
+      <smiley keytype="switcheroo" switcherooCode="smiley" usesRenderer="true">&#xf118;</smiley>
+      <ctrl keytype="switcheroo" switcherooCode="smiley" usesRenderer="true">&#xf118;</ctrl>
+    </key>
+    <key>
+      <normal colspan="6" keycode="Space" value=" "></normal>
+      <shift colspan="6" keycode="Space" value=" "></shift>
+      <numSym keytype="virtual" keycode="Left" usesRenderer="true">&#xf053;</numSym>
+      <smiley keytype="virtual" keycode="Left" usesRenderer="true">&#xf053;</smiley>
+      <ctrl colspan="6" keycode="Space" value=" "></ctrl>
+    </key>
+    <key>
+      <numSym keytype="virtual" keycode="Right" usesRenderer="true">&#xf054;</numSym>
+      <smiley keytype="virtual" keycode="Right" usesRenderer="true">&#xf054;</smiley>
+    </key>
+    <key>
+      <numSym colspan="2" keycode="Space" value=" "></numSym>
+      <smiley>;)</smiley>
+    </key>
+    <key>
+      <smiley>;)</smiley>
+    </key>
+    <key>
+      <numSym keytype="null"></numSym>
+      <smiley>;)</smiley>
+    </key>
+    <key>
+      <smiley>;)</smiley>
+      <numSym colspan="2" column="16" keycode="VK_0">0</numSym>
+    </key>
+    <key>
+      <normal keytype="virtual" usesRenderer="true" keycode="Left">&#xf053;</normal>
+      <shift keytype="virtual" usesRenderer="true" keycode="Left">&#xf053;</shift>
+      <ctrl keytype="virtual" usesRenderer="true" keycode="Left">&#xf053;</ctrl>
+      <smiley colspan="2" keycode="Space" value=" "></smiley>
+    </key>
+    <key>
+      <normal keytype="virtual" usesRenderer="true" keycode="Right">&#xf054;</normal>
+      <shift keytype="virtual" usesRenderer="true" keycode="Right">&#xf054;</shift>
+      <ctrl keytype="virtual" usesRenderer="true" keycode="Right">&#xf054;</ctrl>
+      <numSym keycode="Decimal">.</numSym>
+    </key>
+    <key>
+      <numSym keytype="null"></numSym>
+    </key>
+    <key>
+      <normal keytype="languageKey" usesRenderer="true">&#xf11c;</normal>
+      <shift keytype="languageKey" usesRenderer="true">&#xf11c;</shift>
+      <ctrl keytype="languageKey" usesRenderer="true">&#xf11c;</ctrl>
+      <numSym keytype="languageKey" usesRenderer="true" column="23">&#xf11c;</numSym>
+      <smiley keytype="languageKey" usesRenderer="true">&#xf11c;</smiley>
+    </key>
+  </row>
+</keyboard>

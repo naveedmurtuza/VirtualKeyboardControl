@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<include>
+  <keyboard name="keyboard.en-US.xml" />
+  <keyboard name="keyboard.ar-SA.xml" />
+</include>
