@@ -5,9 +5,9 @@ VirtualKeyboardControl
 
 This library also contains **VkbTextBox** control which is a Textbox control with the keyboard attached.
 
- ![](/https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard1.png)
+ ![](https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard1.png)
  
- ![](/https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard2.png)
+ ![](https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard2.png)
  
 ### Usage ###
 Include ```Wpfkeyboard.dll``` ```Wpfkeyboard.Resources.dll```
