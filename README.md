@@ -4,6 +4,10 @@ VirtualKeyboardControl
 **VirtualKeyboardControl** is a full-featured On-Screen Keyboard with customizable layouts,languages and themes. The layout and languages can be added using xml files. The theme for buttons provided is a verbatim copy from MahApps.Metro. 
 
 This library also contains **VkbTextBox** control which is a Textbox control with the keyboard attached.
+
+ ![](/https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard1.png)
+ 
+ ![](/https://raw.githubusercontent.com/naveedmurtuza/VirtualKeyboardControl/master/keyboard%20images/keyboard2.png)
  
 ### Usage ###
 Include ```Wpfkeyboard.dll``` ```Wpfkeyboard.Resources.dll```
